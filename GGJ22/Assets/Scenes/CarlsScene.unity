@@ -280,9 +280,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3f4f9ba58b57174981df583121eba9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  periodicInterval: 2
-  _defaultType: 2
-  _currentType: 2
+  periodicInterval: 0.5
+  suppressInterval: 4
+  _defaultType: 1
+  _currentType: 1
   _disableOnStart: 0
 --- !u!4 &235450735
 Transform:
@@ -339,7 +340,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 1887665104175423613, guid: 7cb9c8ed456a8224dbf61f8767314a14, type: 3}
-  m_Color: {r: 0.990566, g: 0.051397298, b: 0.051397298, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

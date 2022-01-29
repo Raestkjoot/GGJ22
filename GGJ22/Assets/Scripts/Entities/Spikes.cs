@@ -166,9 +166,9 @@ public class Spikes : MonoBehaviour
     private float suppressInterval;
     private Animator _animator;
     [SerializeField]
-    private Type _currentType;
-    [SerializeField]
     private Type _defaultType = Type.Static;
+    [SerializeField]
+    private Type _currentType;
     [SerializeField]
     private bool _disableOnStart = false;
     private float _timer = 0.0f;
