@@ -7,6 +7,17 @@ public class Spikes : MonoBehaviour
         Static,
         Periodic
     }
+    public void Toggle()
+    {
+        if (_active)
+        {
+            Disable();
+        }
+        else
+        {
+            Enable();
+        }
+    }
     public void Enable()
     {
         _active = true;
@@ -53,21 +64,17 @@ public class Spikes : MonoBehaviour
 
         if (_timer >= periodicInterval)
         {
-            if (_active)
-            {
-                Disable();
-            }
-            else
-            {
-                Enable();
-            }
-
             _timer -= periodicInterval;
+
+            Toggle();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
+        if (!_active)
+            return;
+            
         EntityManager entityManager = ServiceLocator.GetEntityManager();
 
         Entity otherEntity = entityManager.GetByInstanceId(other.transform.GetInstanceID());
