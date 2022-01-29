@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
 
         if(_canWalk)
         {
-            Move(_groundSpeed);
+            _horizontalVelocity = _inputDirection * _groundSpeed;
         }
 
         if (_isGrounded)
@@ -36,8 +36,11 @@ public class PlayerController : MonoBehaviour
         {
             _verticalVelocity -= _gravity;
 
-            Move(_groundSpeed * _airControl);
+            _horizontalVelocity += _inputDirection * _aerialHorizontalAcceleration;
+            _horizontalVelocity = Mathf.Clamp(_horizontalVelocity, -_groundSpeed, _groundSpeed);
         }
+
+        Move();
     }
 
     private void OnDrawGizmos()
@@ -52,10 +55,10 @@ public class PlayerController : MonoBehaviour
         Gizmos.DrawWireCube(_groundCheck.position, _groundCheckSize);
     }
 
-    private void Move(float speed)
+    private void Move()
     {
         Vector2 movePosition = m_rigidbody.position;
-        movePosition.x += _inputDirection * speed * Time.fixedDeltaTime;
+        movePosition.x += _horizontalVelocity * Time.fixedDeltaTime;
         movePosition.y += _verticalVelocity * Time.fixedDeltaTime;
         m_rigidbody.MovePosition(movePosition);
     }
@@ -63,6 +66,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D m_rigidbody => gameObject.GetComponent<Rigidbody2D>();
 
     private float _inputDirection;
+    private float _horizontalVelocity;
     private float _verticalVelocity;
 
     private bool _jump;
@@ -72,7 +76,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float _jumpPower = 1.0f;
     [SerializeField] private float _groundSpeed = 1.0f;
-    [SerializeField] [Range(0.0f, 1.0f)] private float _airControl = 0.6f;
+    [SerializeField] private float _aerialHorizontalAcceleration = 0.02f;
+    //[SerializeField] private float _aerialHorizontalMaxVelocity = 6.0f; // Add this to the clamp check in FixedUpdate->!isGrounded
     [SerializeField] private float _gravity = 0.6f;
 
     [SerializeField] private Transform _groundCheck;
