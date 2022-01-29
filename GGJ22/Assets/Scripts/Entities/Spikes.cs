@@ -26,6 +26,7 @@ public class Spikes : MonoBehaviour
     {
         EntityManager entityManager = ServiceLocator.GetEntityManager();
 
+        _animator = gameObject.GetComponent<Animator>();
         _entity = entityManager.Create(transform.GetInstanceID());
         _entity.OnInteract += Entity_OnInteract;
         _entity.OnDestroyed += Entity_OnDestroyed;
@@ -52,26 +53,31 @@ public class Spikes : MonoBehaviour
             _currentType = _defaultType;
         }
     }
-    private void FixedUpdate()
+    private void Update()
     {
         if (_defaultType != Type.Periodic)
             return;
 
         _timer += Time.deltaTime;
 
-        if (_timer >= periodicInterval)
+        if (_currentType == Type.PeriodicSuppressed)
         {
-            _timer -= periodicInterval;
+            if (_timer >= suppressInterval)
+            {
+                _timer -= suppressInterval;
 
-            if (_currentType == Type.Periodic)
-            {
-                Toggle();
-            }
-            else if (_currentType == Type.PeriodicSuppressed)
-            {
-                _currentType = Type.Periodic;
+                Enable();
             }
         }
+        else
+        {
+            if (_timer >= periodicInterval)
+            {
+                _timer -= periodicInterval;
+
+                Toggle();
+            }
+        } 
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -96,19 +102,20 @@ public class Spikes : MonoBehaviour
         }
         else if (_defaultType == Type.Periodic)
         {
-            if (_currentType == Type.Disabled || _currentType == Type.PeriodicSuppressed)
+            if (_currentType == Type.PeriodicSuppressed)
+            {
+                _timer = 0.0f;
                 return;
-            
+            }
             InteractMethod interactMethod = (InteractMethod)arg;
             if (interactMethod == InteractMethod.Suppressed)
             {
+                _timer = 0.0f;
                 Suppress();
             }
             else if (interactMethod == InteractMethod.Disabled)
             {
-                // TODO:
-                // Play inactive animation 
-                _currentType = Type.Disabled;
+                Disable();
             }
         }
     }
@@ -120,10 +127,7 @@ public class Spikes : MonoBehaviour
 
     private void Toggle()
     {
-        if (_defaultType == Type.Periodic)
-            return;
-
-        if (_currentType == Type.Static)
+        if (_currentType == Type.Static || _currentType == Type.Periodic)
         {
             Disable();
         }
@@ -134,10 +138,12 @@ public class Spikes : MonoBehaviour
     }
     private void Enable()
     {
+        _animator.SetBool("Up", true);
         _currentType = _defaultType;
     }
     private void Disable() 
     {
+        _animator.SetBool("Up", false);
         _currentType = Type.Disabled;
     }
     private void Suppress()
@@ -145,6 +151,7 @@ public class Spikes : MonoBehaviour
         if (_defaultType != Type.Periodic)
             return;
         
+        _animator.SetBool("Up", false);
         _currentType = Type.PeriodicSuppressed;
         _timer = 0.0f;
     }
@@ -156,11 +163,14 @@ public class Spikes : MonoBehaviour
     public float periodicInterval;
 
     [SerializeField]
-    private Type _defaultType = Type.Static;
+    private float suppressInterval;
+    private Animator _animator;
     [SerializeField]
     private Type _currentType;
-    private float _timer = 0.0f;
+    [SerializeField]
+    private Type _defaultType = Type.Static;
     [SerializeField]
     private bool _disableOnStart = false;
+    private float _timer = 0.0f;
     private Entity _entity = null;
 }

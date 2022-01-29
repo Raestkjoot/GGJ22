@@ -19,7 +19,7 @@ public class Button : MonoBehaviour
         {
             return;
         }
-        _entity.Interact(otherEntity, 1);
+        _entity.Interact(otherEntity, 0);
     }
 
     public GameObject spikes;
