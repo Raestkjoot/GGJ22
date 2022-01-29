@@ -20,8 +20,6 @@ public class GameHandler
 
         bootstrap.OnDestroy += Bootstrap_OnDestroy;
         bootstrap.OnApplicationQuit += Bootstrap_OnApplicationQuit;
-
-        Debug.Log("GameInformation : Initialized");
     }
 
     private void Bootstrap_OnDestroy()
