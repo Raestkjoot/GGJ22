@@ -668,36 +668,6 @@ Transform:
   m_Father: {fileID: 858866293}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &656650424
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 656650425}
-  m_Layer: 6
-  m_Name: WalkCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &656650425
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 656650424}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.821, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 967937204}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,13 +1257,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967937201}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.345, y: 4.48, z: -0.025238514}
+  m_LocalPosition: {x: 7.83, y: 9.81, z: -0.025238514}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1267561893}
   - {fileID: 1040641382}
   - {fileID: 2088210894}
-  - {fileID: 656650425}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1309,14 +1278,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ded5d974800cfe4fb9ae259038f1dcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _jumpPower: 14
-  _groundSpeed: 6
-  _aerialHorizontalAcceleration: 0.7
-  _gravity: 1
+  _jumpPower: 16
+  _groundSpeed: 7
+  _aerialHorizontalAcceleration: 1.2
+  _gravity: 50
+  _maxFallVelocity: 30
+  _jumpGracePeriod: 0.1
   _groundCheck: {fileID: 1267561893}
   _groundCheckSize: {x: 0.7, y: 0.29}
-  _walkCheck: {fileID: 656650425}
-  _walkCheckSize: {x: 0.82, y: 0.42}
   _jumpCheck: {fileID: 2088210894}
   _jumpCheckSize: {x: 0.77, y: 0.6}
   _groundLayerMask:
