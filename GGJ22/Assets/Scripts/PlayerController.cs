@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         _canJump = Physics2D.OverlapBox(_jumpCheck.position, _jumpCheckSize, 0f, _groundLayerMask);
+        _canWalk = Physics2D.OverlapBox(_groundCheck.position, _groundCheckSize, 0f, _groundLayerMask);
         _isGrounded = Physics2D.OverlapBox(_groundCheck.position, _groundCheckSize, 0f, _groundLayerMask);
 
         if (_canJump && _jump)
@@ -22,11 +23,14 @@ public class PlayerController : MonoBehaviour
             _verticalVelocity = _jumpPower;
         }
 
+        if(_canWalk)
+        {
+            Move(_groundSpeed);
+        }
+
         if (_isGrounded)
         {
             _verticalVelocity = Mathf.Max(_verticalVelocity, 0);
-
-            Move(_groundSpeed);
         }
         else
         {
@@ -40,6 +44,9 @@ public class PlayerController : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(_jumpCheck.position, _jumpCheckSize);
+
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireCube(_walkCheck.position, _walkCheckSize);
 
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(_groundCheck.position, _groundCheckSize);
@@ -60,6 +67,7 @@ public class PlayerController : MonoBehaviour
 
     private bool _jump;
     private bool _canJump;
+    private bool _canWalk;
     private bool _isGrounded;
 
     [SerializeField] private float _jumpPower = 1.0f;
@@ -69,6 +77,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private Transform _groundCheck;
     [SerializeField] private Vector2 _groundCheckSize;
+    [SerializeField] private Transform _walkCheck;
+    [SerializeField] private Vector2 _walkCheckSize;
     [SerializeField] private Transform _jumpCheck;
     [SerializeField] private Vector2 _jumpCheckSize;
     [SerializeField] private LayerMask _groundLayerMask;
