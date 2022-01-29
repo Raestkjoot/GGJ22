@@ -3,9 +3,6 @@ using UnityEngine;
 public delegate void BootstrapEventHandler();
 public class Bootstrap : MonoBehaviour
 {
-    public event BootstrapEventHandler OnDestroy;
-    public event BootstrapEventHandler OnApplicationQuit;
-
     void Start()
     {
         DontDestroyOnLoad(this);
@@ -18,4 +15,7 @@ public class Bootstrap : MonoBehaviour
         entityManager.Initialize(this);
         ServiceLocator.SetEntityManager(entityManager);
     }
+
+    public event BootstrapEventHandler OnDestroy;
+    public event BootstrapEventHandler OnApplicationQuit;
 }

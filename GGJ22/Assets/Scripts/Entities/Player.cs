@@ -6,12 +6,12 @@ public class Player : MonoBehaviour
     {
         EntityManager entityManager = ServiceLocator.GetEntityManager();
 
-        entity = entityManager.Create(GetInstanceID());
-        entityManager.CreateReference(entity, EntityReference.LocalplayerBody);
+        _entity = entityManager.Create(GetInstanceID());
+        entityManager.CreateReference(_entity, EntityReference.LocalplayerBody);
 
-        entity.OnTakeDamage += Entity_OnTakeDamage;
-        entity.OnDied += Entity_OnDied;
-        entity.OnDestroyed += Entity_OnDestroyed;
+        _entity.OnTakeDamage += Entity_OnTakeDamage;
+        _entity.OnDied += Entity_OnDied;
+        _entity.OnDestroyed += Entity_OnDestroyed;
     }
 
     private void Entity_OnTakeDamage(Entity me, Entity attacker, float damage)
@@ -29,8 +29,8 @@ public class Player : MonoBehaviour
         EntityManager entityManager = ServiceLocator.GetEntityManager();
         entityManager.DestroyReference(EntityReference.LocalplayerBody);
 
-        entity = null;
+        _entity = null;
     }
 
-    private Entity entity = null;
+    private Entity _entity = null;
 }

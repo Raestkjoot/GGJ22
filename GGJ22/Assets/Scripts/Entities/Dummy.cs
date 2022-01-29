@@ -9,20 +9,21 @@ public class Dummy : MonoBehaviour
     {
         EntityManager entityManager = ServiceLocator.GetEntityManager();
 
-        entity = entityManager.Create(transform.GetInstanceID());
-        entity.OnTakeDamage += Entity_OnTakeDamage;
-        entity.OnDied += Entity_OnDied;
-        entity.OnDestroyed += Entity_OnDestroyed;
+        _entity = entityManager.Create(transform.GetInstanceID());
+        _entity.OnTakeDamage += Entity_OnTakeDamage;
+        _entity.OnDied += Entity_OnDied;
+        _entity.OnDestroyed += Entity_OnDestroyed;
 
-        startPos = transform.position;
+        _startPos = transform.position;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.position += Vector3.down * speed * Time.deltaTime;
-        if (distance <= Vector3.Distance(startPos, transform.position))
-            transform.position = startPos;
+        transform.position += speed * Time.deltaTime * Vector3.down;
+
+        if (distance <= Vector3.Distance(_startPos, transform.position))
+            transform.position = _startPos;
     }
 
     private void Entity_OnTakeDamage(Entity me, Entity attacker, float damage)
@@ -38,11 +39,12 @@ public class Dummy : MonoBehaviour
     }
     private void Entity_OnDestroyed()
     {
-        entity = null;
+        _entity = null;
     }
 
     public float distance;
     public float speed;
-    private Vector3 startPos;
-    Entity entity;
+
+    private Vector3 _startPos;
+    private Entity _entity;
 }

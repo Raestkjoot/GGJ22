@@ -6,7 +6,6 @@ public static class ServiceLocator
     public static void SetEntityManager(EntityManager entityManager) { _entityManager = entityManager; }
     public static EntityManager GetEntityManager() { return _entityManager;}
 
-
     private static GameHandler _gameHandler = null;
     private static EntityManager _entityManager = null;
 }
