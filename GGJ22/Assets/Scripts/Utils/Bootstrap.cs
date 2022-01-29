@@ -8,6 +8,8 @@ public class Bootstrap : MonoBehaviour
 
     void Start()
     {
+        DontDestroyOnLoad(this);
+
         GameHandler gameHandler = new GameHandler();
         gameHandler.Initialize(this);
         ServiceLocator.SetGameHandler(gameHandler);
