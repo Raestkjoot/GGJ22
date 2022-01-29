@@ -34,6 +34,8 @@ public class Bootstrap : MonoBehaviour
         }
     }
 
+#pragma warning disable CS0067
     public event BootstrapEventHandler OnDestroy;
     public event BootstrapEventHandler OnApplicationQuit;
+#pragma warning restore CS0067
 }

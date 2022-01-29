@@ -45,7 +45,6 @@ public class GameHandler
         // Sort Levels based on name in alphabetical order
         _gameLevelScenes.Sort((x, y) => x.name.CompareTo(y.name));
 
-
         // Ensure CurrentLevel && MaxUnlockedLevel is between 0 -> sceneCount
         gameInformation.currentLevel = Math.Min(gameInformation.currentLevel, sceneCount);
         gameInformation.currentLevel = Math.Max(gameInformation.currentLevel, 0);
