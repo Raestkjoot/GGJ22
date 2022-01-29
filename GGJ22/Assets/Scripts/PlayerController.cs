@@ -3,9 +3,23 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+    private enum animState
+    {
+        Idle,
+        RunLeft,
+        RunRight,
+        Jump,
+        Die
+    }
+
     private void Start()
     {
         _rigidbody = gameObject.GetComponent<Rigidbody2D>();
+
+        if (_animator)
+            _animator.SetInteger("AnimState", (int)animState.Idle);
+        else
+            Debug.LogWarning("Player is missing its animator!");
     }
 
     private void Update()
@@ -32,25 +46,36 @@ public class PlayerController : MonoBehaviour
         {
             _jump = false;
             _currGracePeriod = 0.0f;
-            _verticalVelocity = _jumpPower;
+            _velocity.y = _jumpPower;
         }
 
         if (_isGrounded)
         {
-            _horizontalVelocity = _inputDirection * _groundSpeed;
-            _verticalVelocity = Mathf.Max(_verticalVelocity, 0.0f); // No negative vertical velocity
+            _velocity.x = _inputDirection * _groundSpeed;
+            _velocity.y = Mathf.Max(_velocity.y, 0.0f); // No y velocity going into the ground
+
+            if (_inputDirection > 0)
+                _animator.SetInteger("AnimState", (int)animState.RunRight);
+            else if (_inputDirection < 0)
+                _animator.SetInteger("AnimState", (int)animState.RunLeft);
+            else // _inputDirection == 0
+                _animator.SetInteger("AnimState", (int)animState.Idle);
         }
         else
         {
+            _animator.SetInteger("AnimState", (int)animState.Jump);
+
+            // If player walked off an edge, give them some extra time to jump
             if (!_jumpedLastFrame && isGroundedLastFrame)
             {
                 _currGracePeriod = _jumpGracePeriod;
             }
 
-            _verticalVelocity = Mathf.Max(_verticalVelocity - _gravity * Time.fixedDeltaTime, -_maxFallVelocity);
-
-            _horizontalVelocity += _inputDirection * _aerialHorizontalAcceleration;
-            _horizontalVelocity = Mathf.Clamp(_horizontalVelocity, -_groundSpeed, _groundSpeed);
+            // Apply gravity
+            _velocity.y = Mathf.Max(_velocity.y - _gravity * Time.fixedDeltaTime, -_maxFallVelocity);
+            
+            _velocity.x += _inputDirection * _aerialHorizontalAcceleration;
+            _velocity.x = Mathf.Clamp(_velocity.x, -_groundSpeed, _groundSpeed);
         }
 
         _jumpedLastFrame = jumpedThisFrame;
@@ -69,17 +94,15 @@ public class PlayerController : MonoBehaviour
     private void Move()
     {
         Vector2 movePosition = _rigidbody.position;
-        movePosition.x += _horizontalVelocity * Time.fixedDeltaTime;
-        movePosition.y += _verticalVelocity * Time.fixedDeltaTime;
+        movePosition += _velocity * Time.fixedDeltaTime;
+
         _rigidbody.MovePosition(movePosition);
     }
 
     private Rigidbody2D _rigidbody;
 
     private float _inputDirection;
-    // TODO vector2
-    private float _horizontalVelocity;
-    private float _verticalVelocity;
+    private Vector2 _velocity;
 
     private bool _jump;
     private bool _canJump;
@@ -87,6 +110,7 @@ public class PlayerController : MonoBehaviour
     private bool _isGrounded;
     private float _currGracePeriod;
 
+    [SerializeField] private Animator _animator;
     [SerializeField] private float _jumpPower = 1.0f;
     [SerializeField] private float _groundSpeed = 1.0f;
     [SerializeField] private float _aerialHorizontalAcceleration = 0.02f;
