@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
         EntityManager entityManager = ServiceLocator.GetEntityManager();
 
         entity = entityManager.Create(GetInstanceID());
+        entityManager.CreateReference(entity, EntityReference.LocalplayerBody);
+
         entity.OnTakeDamage += Entity_OnTakeDamage;
         entity.OnDied += Entity_OnDied;
         entity.OnDestroyed += Entity_OnDestroyed;
@@ -24,6 +26,9 @@ public class Player : MonoBehaviour
     private void Entity_OnDestroyed()
     {
         // Cleanup
+        EntityManager entityManager = ServiceLocator.GetEntityManager();
+        entityManager.DestroyReference(EntityReference.LocalplayerBody);
+
         entity = null;
     }
 
