@@ -863,7 +863,7 @@ GameObject:
   - component: {fileID: 967937203}
   - component: {fileID: 967937202}
   - component: {fileID: 967937205}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1076,7 +1076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1040641382}
   - component: {fileID: 1040641383}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TestSprite_Human
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1266,7 +1266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1267561893}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1405,7 +1405,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2088210894}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: JumpCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
