@@ -61,15 +61,16 @@ public class EntityManager
         _referenceToEntityMap = new Dictionary<EntityReference, Entity>(8);
     }
 
-    public Entity Create(int instanceID)
+    public Entity Create(int entityInstanceId)
     {
         Entity entity = new Entity
         {
-            id = _entities.Count
+            id = _entities.Count,
+            instanceId = entityInstanceId
         };
 
         _entities.Add(entity);
-        _instanceIdToEntityMap[instanceID] = entity;
+        _instanceIdToEntityMap[entityInstanceId] = entity;
         return entity;
     }
     public bool CreateReference(Entity entity, EntityReference reference)
@@ -94,18 +95,26 @@ public class EntityManager
 
     public Entity GetById(int id)
     {
-        return _entities[id];
+        Entity entity = null;
+        if (id < _entities.Count)
+            entity = _entities[id];
+
+        return entity;
     }
     public Entity GetByInstanceId(int instanceId)
     {
-        return _instanceIdToEntityMap[instanceId];
+        Entity entity = null;
+        _instanceIdToEntityMap.TryGetValue(instanceId, out entity);
+
+        return entity;
     }
     public Entity GetByReference(EntityReference reference)
     {
+        Entity entity = null;
         if (_referenceToEntityMap.ContainsKey(reference))
-            return _referenceToEntityMap[reference];
+            entity = _referenceToEntityMap[reference];
 
-        return null;
+        return entity;
     }
 
     public void Clear()

@@ -19,8 +19,8 @@ public static class DefaultSceneLoader
 
         if (state == PlayModeStateChange.EnteredPlayMode)
         {
-            if (EditorSceneManager.GetActiveScene().name != "Bootstrap")
-                EditorSceneManager.LoadScene("Bootstrap");
+            // if (EditorSceneManager.GetActiveScene().name != "Bootstrap")
+                // EditorSceneManager.LoadScene("Bootstrap");
         }
     }
 }
