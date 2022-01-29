@@ -1,8 +1,10 @@
 using System.Collections.Generic;
+using UnityEngine;
 
 public delegate void EntityTakeDamageEventHandler(Entity me, Entity attacker, float damage);
 public delegate void EntityDiedEventHandler(Entity me, Entity killer);
 public delegate void EntityDestroyedEventHandler();
+public delegate void EntityInteractEventHandler(Entity me, Entity other, object arg);
 
 public class Entity
 {
@@ -43,6 +45,13 @@ public class Entity
             OnDestroyed();
     }
     public event EntityDestroyedEventHandler OnDestroyed;
+
+    public void Interact(Entity other, object arg)
+    {
+        if (other.OnInteract != null)
+            other.OnInteract(other, this, arg);
+    }
+    public event EntityInteractEventHandler OnInteract;
 }
 
 public enum EntityReference

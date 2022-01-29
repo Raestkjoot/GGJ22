@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bootstrap.unity
     guid: be74171ffbb423543a0fc5d6f8fc1c58
+  - enabled: 1
+    path: Assets/Scenes/CarlsScene.unity
+    guid: da1a34b729819b245b2b313c08e0795e
   m_configObjects: {}
