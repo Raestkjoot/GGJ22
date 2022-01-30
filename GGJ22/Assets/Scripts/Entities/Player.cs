@@ -117,7 +117,7 @@ public class Player : MonoBehaviour
     private void EnterSpiritForm()
     {
         // spawn lifeless player body
-        Instantiate(_theMortalCoil, transform.position, transform.rotation);
+        _mortalCoilPosition = Instantiate(_theMortalCoil, transform.position, transform.rotation);
         _bodyAnimatorObject.SetActive(false);
         _ghostAnimatorObject.SetActive(true);
 
@@ -127,6 +127,11 @@ public class Player : MonoBehaviour
     }
     private void LeaveSpiritForm()
     {
+        Vector3 respawnLocation = _mortalCoilPosition.transform.position;
+        respawnLocation.y += 1;
+        transform.position = respawnLocation;
+        Destroy(_mortalCoilPosition);
+
         _bodyAnimatorObject.SetActive(true);
         _ghostAnimatorObject.SetActive(false);
 
@@ -146,6 +151,8 @@ public class Player : MonoBehaviour
         return _spiritSliderTimer / _spiritSliderMaxTime;
     }
     private bool IsInSpiritForm() { return _isInSpiritForm; }
+
+    private GameObject _mortalCoilPosition;
 
     private const int _maxHeartSprites = 4;
     [SerializeField] private Sprite[] _heartSprites;

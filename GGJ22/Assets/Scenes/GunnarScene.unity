@@ -1006,6 +1006,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1708050474799174556, guid: 8b8b8b1644663664eb05c26d35e9d63a, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7893248612542193428, guid: 8b8b8b1644663664eb05c26d35e9d63a, type: 3}
       propertyPath: _gravity
       value: 0.4
