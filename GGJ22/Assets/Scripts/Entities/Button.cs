@@ -14,7 +14,7 @@ public class Button : MonoBehaviour
     {
         EntityManager entityManager = ServiceLocator.GetEntityManager();
 
-        Entity otherEntity = entityManager.GetByInstanceId(spikes.transform.GetInstanceID());
+        Entity otherEntity = entityManager.GetByInstanceId(Interactable.transform.GetInstanceID());
         if (otherEntity == null)
         {
             return;
@@ -22,7 +22,7 @@ public class Button : MonoBehaviour
         _entity.Interact(otherEntity, 0);
     }
 
-    public GameObject spikes;
+    public GameObject Interactable;
 
     private Entity _entity;
 }

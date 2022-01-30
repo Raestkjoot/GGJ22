@@ -91,6 +91,18 @@ public class Spikes : MonoBehaviour
             return;
 
         _entity.DealDamage(otherEntity, 50.0f);
+        Debug.Log("Dealt Damage to something");
+        foreach(Collider2D c in GetComponents<Collider2D> ()) 
+        {
+            Debug.Log("Collider removed");
+            c.enabled = false;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other) {
+        foreach(Collider2D c in GetComponents<Collider2D> ()) 
+        {
+            c.enabled = true;
+        }
     }
 
     private void Entity_OnInteract(Entity me, Entity other, object arg)
@@ -98,7 +110,15 @@ public class Spikes : MonoBehaviour
         // When being interacted with, we want the entity to enable/disable
         if (_defaultType == Type.Static)
         {
-            Toggle();
+            InteractMethod interactMethod = (InteractMethod)arg;
+            if (interactMethod == InteractMethod.Suppressed)
+            {
+                Toggle();
+            }
+            else if (interactMethod == InteractMethod.Disabled)
+            {
+                Disable();
+            }
         }
         else if (_defaultType == Type.Periodic)
         {
@@ -138,11 +158,19 @@ public class Spikes : MonoBehaviour
     }
     private void Enable()
     {
+        foreach(Collider2D c in GetComponents<Collider2D> ()) 
+        {
+            c.enabled = true;
+        }
         _animator.SetBool("Up", true);
         _currentType = _defaultType;
     }
     private void Disable() 
     {
+        foreach(Collider2D c in GetComponents<Collider2D> ()) 
+        {
+            c.enabled = false;
+        }
         _animator.SetBool("Up", false);
         _currentType = Type.Disabled;
     }
@@ -151,6 +179,11 @@ public class Spikes : MonoBehaviour
         if (_defaultType != Type.Periodic)
             return;
         
+        foreach(Collider2D c in GetComponents<Collider2D> ()) 
+        {
+            c.enabled = false;
+        }
+
         _animator.SetBool("Up", false);
         _currentType = Type.PeriodicSuppressed;
         _timer = 0.0f;
@@ -162,15 +195,11 @@ public class Spikes : MonoBehaviour
 
     public float periodicInterval;
 
-    [SerializeField]
-    private float suppressInterval;
-    private Animator _animator;
-    [SerializeField]
-    private Type _defaultType = Type.Static;
-    [SerializeField]
+    [SerializeField] private float suppressInterval;
+    private Animator _animator; 
+    [SerializeField] private Type _defaultType = Type.Static;
     private Type _currentType;
-    [SerializeField]
-    private bool _disableOnStart = false;
+    [SerializeField] private bool _disableOnStart = false;
     private float _timer = 0.0f;
     private Entity _entity = null;
 }
