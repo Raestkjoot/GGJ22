@@ -27,6 +27,7 @@
 
 # Visual Studio cache directory
 .vs/
+.vscode/
 
 # Gradle cache directory
 .gradle/
@@ -64,6 +65,10 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# FMOD genereated log and cache
+fmod_editor.log
+/[Aa]ssets/[Pp]lugins/*/FMODStudioCache.asset*
 
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
