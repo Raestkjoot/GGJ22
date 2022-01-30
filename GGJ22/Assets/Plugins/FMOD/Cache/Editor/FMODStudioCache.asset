@@ -123,7 +123,7 @@ MonoBehaviour:
   Path: Assets/Fmod_Project/Fmod_GGJ22/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637791538280000000
+  lastModified: 637791526600000000
   FileSizes:
   - Name: Desktop
     Value: 1888
@@ -231,8 +231,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1.8000001
-  MaxDistance: 8.6
+  MinDistance: 1
+  MaxDistance: 20
   Length: 0
 --- !u!114 &-55552972832085791
 MonoBehaviour:
@@ -301,7 +301,7 @@ MonoBehaviour:
   - {fileID: 1307494185810154158}
   StringsBanks:
   - {fileID: -4268246548640605055}
-  cacheTime: 637791538280000000
+  cacheTime: 637791526600000000
   cacheVersion: 10
 --- !u!114 &607568223940856491
 MonoBehaviour:
@@ -372,10 +372,10 @@ MonoBehaviour:
   Path: Assets/Fmod_Project/Fmod_GGJ22/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637791538280000000
+  lastModified: 637791526600000000
   FileSizes:
   - Name: Desktop
-    Value: 2128064
+    Value: 2127808
   Exists: 1
 --- !u!114 &2278658842324209570
 MonoBehaviour:

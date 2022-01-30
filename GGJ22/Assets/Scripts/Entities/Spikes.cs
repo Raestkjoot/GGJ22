@@ -81,6 +81,9 @@ public class Spikes : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.tag != "Player")
+            return;
+            
         if (!IsSpikeEnabled())
             return;
 
@@ -90,14 +93,14 @@ public class Spikes : MonoBehaviour
         if (otherEntity == null)
             return;
 
-        _entity.DealDamage(otherEntity, 50.0f);
-        foreach(Collider2D c in GetComponents<Collider2D> ()) 
+        _entity.DealDamage(otherEntity, 33.33f);
+        foreach(Collider2D c in GetComponentsInChildren<Collider2D>()) 
         {
             c.enabled = false;
         }
     }
     private void OnTriggerExit2D(Collider2D other) {
-        foreach(Collider2D c in GetComponents<Collider2D> ()) 
+        foreach(Collider2D c in GetComponentsInChildren<Collider2D>()) 
         {
             c.enabled = true;
         }
