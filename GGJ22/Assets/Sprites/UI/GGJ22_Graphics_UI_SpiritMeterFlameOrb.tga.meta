@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: b52aaeeb307139f4ca01bc2ce6acc550
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -526274267452682336
+    second: GGJ22_Graphics_UI_SpiritMeterFlameOrb_0
+  - first:
+      213: -7833610016324374152
+    second: GGJ22_Graphics_UI_SpiritMeterFlameOrb_1
+  - first:
+      213: -4410339769195993661
+    second: GGJ22_Graphics_UI_SpiritMeterFlameOrb_2
+  - first:
+      213: 6331834816370034387
+    second: GGJ22_Graphics_UI_SpiritMeterFlameOrb_3
+  - first:
+      213: -7387017202674378368
+    second: GGJ22_Graphics_UI_SpiritMeterFlameOrb_4
+  - first:
+      213: 2126311643634804656
+    second: GGJ22_Graphics_UI_SpiritMeterFlameOrb_5
+  - first:
+      213: 7292244454014187124
+    second: GGJ22_Graphics_UI_SpiritMeterFlameOrb_6
+  - first:
+      213: -4678565761938188094
+    second: GGJ22_Graphics_UI_SpiritMeterFlameOrb_7
+  - first:
+      213: -1932356118444613966
+    second: GGJ22_Graphics_UI_SpiritMeterFlameOrb_8
+  - first:
+      213: 4214528352868592190
+    second: GGJ22_Graphics_UI_SpiritMeterFlameOrb_9
+  - first:
+      213: 9093939446179592314
+    second: GGJ22_Graphics_UI_SpiritMeterFlameOrb_10
+  - first:
+      213: -1065543156805831747
+    second: GGJ22_Graphics_UI_SpiritMeterFlameOrb_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +68,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +77,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +111,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: GGJ22_Graphics_UI_SpiritMeterFlameOrb_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afcd02975c42b8f0800000000000000
+      internalID: -526274267452682336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_UI_SpiritMeterFlameOrb_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8713b04c13d694390800000000000000
+      internalID: -7833610016324374152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_UI_SpiritMeterFlameOrb_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c56b4ec8535bc2c0800000000000000
+      internalID: -4410339769195993661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_UI_SpiritMeterFlameOrb_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6cf2ec7323fd750800000000000000
+      internalID: 6331834816370034387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_UI_SpiritMeterFlameOrb_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089d4e40efa0c7990800000000000000
+      internalID: -7387017202674378368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_UI_SpiritMeterFlameOrb_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b721a89c2d228d10800000000000000
+      internalID: 2126311643634804656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_UI_SpiritMeterFlameOrb_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476f3d8e1b1433560800000000000000
+      internalID: 7292244454014187124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_UI_SpiritMeterFlameOrb_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c89e554a35621fb0800000000000000
+      internalID: -4678565761938188094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_UI_SpiritMeterFlameOrb_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be5e8c2954ee25e0800000000000000
+      internalID: -1932356118444613966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_UI_SpiritMeterFlameOrb_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a6b8815330d7a30800000000000000
+      internalID: 4214528352868592190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_UI_SpiritMeterFlameOrb_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78727a9eb9243e70800000000000000
+      internalID: 9093939446179592314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_UI_SpiritMeterFlameOrb_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db37db5f42e6631f0800000000000000
+      internalID: -1065543156805831747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
