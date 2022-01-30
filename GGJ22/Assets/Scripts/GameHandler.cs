@@ -51,11 +51,26 @@ public class GameHandler
         gameInformation.maxUnlockedLevel = Math.Min(gameInformation.maxUnlockedLevel, sceneCount);
         gameInformation.maxUnlockedLevel = Math.Max(gameInformation.maxUnlockedLevel, 0);
 
+        _spiritOrbs = new List<GameObject>(16);
+
+        SceneManager.sceneLoaded += SceneManager_sceneLoaded;
+
         int currentLevel = gameInformation.currentLevel;
         LoadLevel(currentLevel);
 
         bootstrap.OnDestroy += Bootstrap_OnDestroy;
         bootstrap.OnApplicationQuit += Bootstrap_OnApplicationQuit;
+    }
+
+    private void SceneManager_sceneLoaded(Scene scene, LoadSceneMode loadSceneMode)
+    {
+        if (!scene.name.StartsWith("Level"))
+            return;
+
+        _spiritOrbs.Clear();
+        _spiritOrbs.AddRange(GameObject.FindGameObjectsWithTag("SpiritOrb"));
+
+        LeaveSpiritRealm();
     }
 
     public bool IsLevelValid(int level)
@@ -126,6 +141,23 @@ public class GameHandler
         }
     }
 
+    public void EnterSpiritRealm()
+    {
+        for (int i = 0; i < _spiritOrbs.Count; i++)
+        {
+            GameObject spiritOrb = _spiritOrbs[i];
+            spiritOrb.SetActive(true);
+        }
+    }
+    public void LeaveSpiritRealm()
+    {
+        for (int i = 0; i < _spiritOrbs.Count; i++)
+        {
+            GameObject spiritOrb = _spiritOrbs[i];
+            spiritOrb.SetActive(false);
+        }
+    }
+
     public void SaveSettings()
     {
         PlayerPrefs.SetInt("CurrentLevel", gameInformation.currentLevel);
@@ -145,4 +177,5 @@ public class GameHandler
 
     public GameInformation gameInformation;
     private List<GameLevelScene> _gameLevelScenes;
+    private List<GameObject> _spiritOrbs;
 }
