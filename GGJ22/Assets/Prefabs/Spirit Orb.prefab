@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _consumed: 0
-  _fadeOutMaxTime: 0.45
+  _fadeOutMaxTime: 0.85
   _fadeOutTimer: 0
   _spiritEnergiSecondGained: 2.5
 --- !u!70 &7807848226803558881
