@@ -142,10 +142,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteAnimator: {fileID: 1708050474799174557}
   _audioPath_Landing: event:/Character/Land
-  _jumpPower: 16
+  _jumpPower: 10
   _groundSpeed: 7
   _aerialHorizontalAcceleration: 1.2
-  _aerialExtraJumpPower: 0.02
+  _aerialExtraJumpPower: 0.55
   _gravity: 1
   _maxFallVelocity: 30
   _jumpGracePeriod: 0.1
@@ -170,12 +170,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteAnimator: {fileID: 8518433494294268410}
   _audioPath_Landing: 
-  _jumpPower: 16
+  _jumpPower: 8
   _groundSpeed: 7
   _aerialHorizontalAcceleration: 1.2
-  _aerialExtraJumpPower: 0.02
-  _gravity: 1
-  _maxFallVelocity: 30
+  _aerialExtraJumpPower: 0.34
+  _gravity: 0.5
+  _maxFallVelocity: 10
   _jumpGracePeriod: 0.1
   _groundCheck: {fileID: 1708050473756003827}
   _groundCheckSize: {x: 0.7, y: 0.29}
@@ -380,7 +380,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -4673106271955704594, guid: fe0cced9e26d138468efc33e9e733535, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -388,7 +388,7 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &6145741241213040935
