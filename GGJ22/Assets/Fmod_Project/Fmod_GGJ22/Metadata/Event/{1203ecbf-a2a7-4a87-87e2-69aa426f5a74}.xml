@@ -119,7 +119,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{839113f0-f22d-4823-b4c5-b8efd7efd493}">
 		<property name="volume">
-			<value>-16</value>
+			<value>-17</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -178,6 +178,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{09b2ec9f-9845-4c6e-8a31-6e4e5ae9ee0a}" />
 	<object class="GainEffect" id="{13d4a248-0ed9-4f05-a00c-30cd78704691}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="gain">
 			<value>-80</value>
 		</property>
