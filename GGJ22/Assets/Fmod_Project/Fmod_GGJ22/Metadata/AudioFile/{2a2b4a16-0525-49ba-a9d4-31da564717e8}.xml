@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{2a2b4a16-0525-49ba-a9d4-31da564717e8}">
+		<property name="assetPath">
+			<value>GGJ22_Spike_04.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.59916099773242626</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f309c912-06b4-4a7e-a2df-b81e6750c2ec}</destination>
+		</relationship>
+	</object>
+</objects>
