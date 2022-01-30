@@ -99,8 +99,6 @@ public class Player : MonoBehaviour
 
     private void ToggleSpiritState()
     {
-        _isInSpiritForm = !_isInSpiritForm;
-        UpdateSpiritSliderState(_isInSpiritForm, 0.0f, 0.0f);
 
         if (IsInSpiritForm())
         {
@@ -110,18 +108,30 @@ public class Player : MonoBehaviour
         {
             EnterSpiritForm();
         }
+
+        _isInSpiritForm = !_isInSpiritForm;
+        UpdateSpiritSliderState(_isInSpiritForm, 0.0f, 0.0f);
     }
 
+    // coroutines?
     private void EnterSpiritForm()
     {
-        // TODO : Implement Changing to spirit
-        {
+        // spawn lifeless player body
+        Instantiate(_theMortalCoil, transform.position, transform.rotation);
+        _bodyAnimatorObject.SetActive(false);
+        _ghostAnimatorObject.SetActive(true);
 
-        }
+        _bodyPlayerController.enabled = false;
+        _ghostPlayerController.enabled = true;
+
     }
     private void LeaveSpiritForm()
     {
-        // TODO : Implement Changing to body
+        _bodyAnimatorObject.SetActive(true);
+        _ghostAnimatorObject.SetActive(false);
+
+        _bodyPlayerController.enabled = true;
+        _ghostPlayerController.enabled = false;
     }
     private void UpdateSpiritSliderState(bool state, float timer, float progress)
     {
@@ -146,6 +156,12 @@ public class Player : MonoBehaviour
     [SerializeField] private RectTransform _spiritSliderRect;
     [SerializeField] private float _spiritSliderMaxTime = 8.0f;
     [SerializeField] private float _spiritSliderTimer = 0.0f;
+
+    [SerializeField] private GameObject _bodyAnimatorObject;
+    [SerializeField] private PlayerController _bodyPlayerController;
+    [SerializeField] private GameObject _ghostAnimatorObject;
+    [SerializeField] private PlayerController _ghostPlayerController;
+    [SerializeField] private GameObject _theMortalCoil;
 
     private Entity _entity = null;
 }

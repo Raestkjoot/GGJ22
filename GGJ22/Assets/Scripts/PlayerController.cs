@@ -142,7 +142,7 @@ public class PlayerController : MonoBehaviour
     private bool _jump;
     private bool _canJump;
     private bool _jumpedLastFrame;
-    private bool _hasReleasedJumpButton;
+    private bool _hasReleasedJumpButton = true;
     private bool _isGrounded;
     private float _currGracePeriod;
 
