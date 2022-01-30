@@ -49,6 +49,8 @@ public class SpiritOrb : MonoBehaviour
         Animator animator = GetComponent<Animator>();
         animator.Play("SpiritOrbConsumed");
 
+        FMODUnity.RuntimeManager.PlayOneShot(_audioPath_SpiritOrbConsume, GetComponent<Transform>().position);
+
         SpiritOrbEvent spiritOrbEvent = new SpiritOrbEvent
         {
             secondsGained = _spiritEnergiSecondGained
@@ -80,6 +82,8 @@ public class SpiritOrb : MonoBehaviour
 
         StartConsume();
     }
+
+    [SerializeField] private string _audioPath_SpiritOrbConsume;
 
     [SerializeField] private bool _consumed = false;
     [SerializeField] private float _fadeOutMaxTime = 0.85f;
