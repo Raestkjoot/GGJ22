@@ -16,7 +16,7 @@ public class Entity
 
     public void DealDamage(Entity victim, float damage)
     {
-        if (currentHealth <= 0)
+        if (victim.currentHealth <= 0)
             return;
 
         if (victim.OnTakeDamage != null)

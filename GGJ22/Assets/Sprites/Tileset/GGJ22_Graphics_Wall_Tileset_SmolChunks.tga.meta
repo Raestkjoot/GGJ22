@@ -1,0 +1,2124 @@
+fileFormatVersion: 2
+guid: fe2064a988a39f94abbf05bce4d57ece
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 625476739484251791
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_0
+  - first:
+      213: 2923578034598100357
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_1
+  - first:
+      213: 1657018176504959398
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_2
+  - first:
+      213: -6608668836986019190
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_3
+  - first:
+      213: 4029155261445247884
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_4
+  - first:
+      213: -7735387278338593935
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_5
+  - first:
+      213: -863686166494494180
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_6
+  - first:
+      213: 5097338057014213773
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_7
+  - first:
+      213: 8867807605079680238
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_8
+  - first:
+      213: 7514598299629001497
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_9
+  - first:
+      213: 6819883817087609797
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_10
+  - first:
+      213: -6538091762817722004
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_11
+  - first:
+      213: 5795893886077799676
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_12
+  - first:
+      213: -3208163866269123857
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_13
+  - first:
+      213: -7837570268627533575
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_14
+  - first:
+      213: 5885846926774132157
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_15
+  - first:
+      213: -3619516685955826918
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_16
+  - first:
+      213: 522147339115486609
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_17
+  - first:
+      213: 6721995332535295484
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_18
+  - first:
+      213: 7766497771456670358
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_19
+  - first:
+      213: 1683868201412565654
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_20
+  - first:
+      213: 4099769295500386307
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_21
+  - first:
+      213: 7606504992998666533
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_22
+  - first:
+      213: -6380859578497016323
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_23
+  - first:
+      213: -7778369844148124348
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_24
+  - first:
+      213: 7439409519660384591
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_25
+  - first:
+      213: -6932326924288587485
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_26
+  - first:
+      213: 3920032178744920319
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_27
+  - first:
+      213: -8321284046255751505
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_28
+  - first:
+      213: 3564181340930346711
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_29
+  - first:
+      213: -4245965231288380163
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_30
+  - first:
+      213: -9001104535355516990
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_31
+  - first:
+      213: 2844637517812156466
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_32
+  - first:
+      213: -887126426390824756
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_33
+  - first:
+      213: -5635754325320136869
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_34
+  - first:
+      213: 4220869386089762744
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_35
+  - first:
+      213: -5359933651079169546
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_36
+  - first:
+      213: 873583952763465369
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_37
+  - first:
+      213: -2538172565489907622
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_38
+  - first:
+      213: -825226422567649163
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_39
+  - first:
+      213: 8268673653671260625
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_40
+  - first:
+      213: -4551886329845287692
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_41
+  - first:
+      213: -5431919144070678221
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_42
+  - first:
+      213: 5861497947604380962
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_43
+  - first:
+      213: 1199387108691983260
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_44
+  - first:
+      213: -397231625245559814
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_45
+  - first:
+      213: -1668695536199918608
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_46
+  - first:
+      213: 673727043167939644
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_47
+  - first:
+      213: -1814009803470624238
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_48
+  - first:
+      213: 9218456361344610403
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_49
+  - first:
+      213: -4203926757165588881
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_50
+  - first:
+      213: 514725229909589998
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_51
+  - first:
+      213: -4259864257093249064
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_52
+  - first:
+      213: -3558481155309065078
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_53
+  - first:
+      213: -1690994086346537509
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_54
+  - first:
+      213: 7214435842864455821
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_55
+  - first:
+      213: 32487316468473584
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_56
+  - first:
+      213: 4335713085634829928
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_57
+  - first:
+      213: -8184594532719929109
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_58
+  - first:
+      213: -5056522279161733344
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_59
+  - first:
+      213: 687340658330685475
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_60
+  - first:
+      213: 8556294459446518270
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_61
+  - first:
+      213: -2396817991036151246
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_62
+  - first:
+      213: -7438953414614523507
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_63
+  - first:
+      213: -1226660960581058413
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_64
+  - first:
+      213: 7924516559624479163
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_65
+  - first:
+      213: -1230076539395831511
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_66
+  - first:
+      213: 5059152260460828500
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_67
+  - first:
+      213: 451891000600381952
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_68
+  - first:
+      213: 8453816492151973096
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_69
+  - first:
+      213: -8928405119756680194
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_70
+  - first:
+      213: 4418319369731601433
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_71
+  - first:
+      213: 6387510938823974477
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_72
+  - first:
+      213: -3859382980738031324
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_73
+  - first:
+      213: -8584996820566542750
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_74
+  - first:
+      213: 6066724591776913097
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_75
+  - first:
+      213: 6827566420565087893
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_76
+  - first:
+      213: -5686013850635571758
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_77
+  - first:
+      213: 3837044335849119005
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_78
+  - first:
+      213: -1493838101844197883
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_79
+  - first:
+      213: 6911794852966350485
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_80
+  - first:
+      213: 1333226329186860526
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_81
+  - first:
+      213: 3876868830576035098
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_82
+  - first:
+      213: -6424659220481495299
+    second: GGJ22_Graphics_Wall_Tileset_SmolChunks_83
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f867a38d7c32ea800800000000000000
+      internalID: 625476739484251791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dba519bb2a29820800000000000000
+      internalID: 2923578034598100357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a191f49049eef610800000000000000
+      internalID: 1657018176504959398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82214df4ba4944a0800000000000000
+      internalID: -6608668836986019190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c831757ec5f6ae730800000000000000
+      internalID: 4029155261445247884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b6d82114266a490800000000000000
+      internalID: -7735387278338593935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c124da0f1029304f0800000000000000
+      internalID: -863686166494494180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c796cb4f16db640800000000000000
+      internalID: 5097338057014213773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4284d7808c01b70800000000000000
+      internalID: 8867807605079680238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b1427e657394860800000000000000
+      internalID: 7514598299629001497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb21f6c23815ae50800000000000000
+      internalID: 6819883817087609797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6997589e280445a0800000000000000
+      internalID: -6538091762817722004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc868b08c62f6050800000000000000
+      internalID: 5795893886077799676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaf8c116ff4a73d0800000000000000
+      internalID: -3208163866269123857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f00b4cad5b5b3390800000000000000
+      internalID: -7837570268627533575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd52b8689abea150800000000000000
+      internalID: 5885846926774132157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bf00b40c4e4cdc0800000000000000
+      internalID: -3619516685955826918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dd46c0d3a0f3700800000000000000
+      internalID: 522147339115486609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd9999e323594d50800000000000000
+      internalID: 6721995332535295484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69aa980139428cb60800000000000000
+      internalID: 7766497771456670358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a95c9253d4e5710800000000000000
+      internalID: 1683868201412565654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_21
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300aa57e37e45e830800000000000000
+      internalID: 4099769295500386307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521bbe97dfbbf8960800000000000000
+      internalID: 7606504992998666533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_23
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd59064502a277a0800000000000000
+      internalID: -6380859578497016323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_24
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445c0fb96ddad0490800000000000000
+      internalID: -7778369844148124348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_25
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41440eda871e3760800000000000000
+      internalID: 7439409519660384591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32907e2346d6bcf90800000000000000
+      internalID: -6932326924288587485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_27
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff801325f70c66630800000000000000
+      internalID: 3920032178744920319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faefccb7f3cd48c80800000000000000
+      internalID: -8321284046255751505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de8a35bb04867130800000000000000
+      internalID: 3564181340930346711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df495644e1d4315c0800000000000000
+      internalID: -4245965231288380163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c71aff6d17a51380800000000000000
+      internalID: -9001104535355516990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23841fb30ce2a7720800000000000000
+      internalID: 2844637517812156466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8fc14273b40b3f0800000000000000
+      internalID: -887126426390824756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b570ce5fc47c9c1b0800000000000000
+      internalID: -5635754325320136869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_35
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf8331f75a839a30800000000000000
+      internalID: 4220869386089762744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f973c31eb0bd95b0800000000000000
+      internalID: -5359933651079169546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_37
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ea2f10af79f1c00800000000000000
+      internalID: 873583952763465369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_38
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58055fdf7996ccd0800000000000000
+      internalID: -2538172565489907622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_39
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570c69fd0f43c84f0800000000000000
+      internalID: -825226422567649163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_40
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1f4b2f0ea30c270800000000000000
+      internalID: 8268673653671260625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_41
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f47d9bff7374d0c0800000000000000
+      internalID: -4551886329845287692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339f5096152fd94b0800000000000000
+      internalID: -5431919144070678221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22de3aae359385150800000000000000
+      internalID: 5861497947604380962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bb4c1883415a010800000000000000
+      internalID: 1199387108691983260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3ffa301ffbc7af0800000000000000
+      internalID: -397231625245559814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb168e304a97d8e0800000000000000
+      internalID: -1668695536199918608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_47
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c699b1d2f895900800000000000000
+      internalID: 673727043167939644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21aae0dd1b753d6e0800000000000000
+      internalID: -1814009803470624238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_49
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360b26b18398eef70800000000000000
+      internalID: 9218456361344610403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_50
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e926143e6a8a5c0800000000000000
+      internalID: -4203926757165588881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_51
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef31b59edba42700800000000000000
+      internalID: 514725229909589998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_52
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7d294270ce1e4c0800000000000000
+      internalID: -4259864257093249064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_53
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ca1ed2e3cbd9ec0800000000000000
+      internalID: -3558481155309065078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5470676d16888e0800000000000000
+      internalID: -1690994086346537509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_55
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8028c4ec23de1460800000000000000
+      internalID: 7214435842864455821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe1fcdca0b637000800000000000000
+      internalID: 32487316468473584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ed64d641c8b2c30800000000000000
+      internalID: 4335713085634829928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8df96e2aa7a6e80800000000000000
+      internalID: -8184594532719929109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f57b717cf93d9b0800000000000000
+      internalID: -5056522279161733344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320db73eface98900800000000000000
+      internalID: 687340658330685475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1e3f84a701eb670800000000000000
+      internalID: 8556294459446518270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_62
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a560d6cbaccbed0800000000000000
+      internalID: -2396817991036151246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_63
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81e83d584783c890800000000000000
+      internalID: -7438953414614523507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3900ab00b560afee0800000000000000
+      internalID: -1226660960581058413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_65
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb12e1933d989fd60800000000000000
+      internalID: 7924516559624479163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_66
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92905c697e3edeee0800000000000000
+      internalID: -1230076539395831511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_67
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457d1652d28b53640800000000000000
+      internalID: 5059152260460828500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_68
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a4bf78870754600800000000000000
+      internalID: 451891000600381952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_69
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4ae033f4df15570800000000000000
+      internalID: 8453816492151973096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3cf1a29dee71480800000000000000
+      internalID: -8928405119756680194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9147419be06015d30800000000000000
+      internalID: 4418319369731601433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e568b3b5ff4a850800000000000000
+      internalID: 6387510938823974477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421ebec70a7b07ac0800000000000000
+      internalID: -3859382980738031324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266f54080e6fbd880800000000000000
+      internalID: -8584996820566542750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_75
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c65df29fd5513450800000000000000
+      internalID: 6066724591776913097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596da2a4c7360ce50800000000000000
+      internalID: 6827566420565087893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_77
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd6ae457883711b0800000000000000
+      internalID: -5686013850635571758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d16b17e7bef3530800000000000000
+      internalID: 3837044335849119005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_79
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ef1ab3922d44be0800000000000000
+      internalID: -1493838101844197883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_80
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ebe6b6cc0abef50800000000000000
+      internalID: 6911794852966350485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_81
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed716c5842908210800000000000000
+      internalID: 1333226329186860526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_82
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15c44f29a76dc530800000000000000
+      internalID: 3876868830576035098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ22_Graphics_Wall_Tileset_SmolChunks_83
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe23407a7607d6a0800000000000000
+      internalID: -6424659220481495299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
