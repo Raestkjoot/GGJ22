@@ -62,7 +62,11 @@
 			<destination>{7a4d3b9a-4d1a-4503-9dc3-32729b5c9e6e}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{1f9b7b33-fd34-4d29-b084-1f0b155b2654}" />
+	<object class="EventAutomatableProperties" id="{1f9b7b33-fd34-4d29-b084-1f0b155b2654}">
+		<property name="triggerCooldown">
+			<value>60</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{9b20e41d-31cc-440e-bcd8-e761ef7d9eb1}" />
 	<object class="GroupTrack" id="{fe7a700f-b63b-4600-91bb-1bbf866d78f7}">
 		<relationship name="mixerGroup">
@@ -151,7 +155,7 @@
 	<object class="SpatialiserEffect" id="{25d0dfee-2e6c-4418-890b-7d88abf48263}" />
 	<object class="MixerSend" id="{949c22d4-d386-4ff3-8892-320843f9c4fb}">
 		<property name="level">
-			<value>-17</value>
+			<value>-20.5</value>
 		</property>
 		<property name="inputFormat">
 			<value>2</value>

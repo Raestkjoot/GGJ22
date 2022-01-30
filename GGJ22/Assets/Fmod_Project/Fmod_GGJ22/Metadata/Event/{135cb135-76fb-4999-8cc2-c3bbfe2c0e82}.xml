@@ -34,6 +34,9 @@
 		<relationship name="parameters">
 			<destination>{1cf2aacd-0331-4986-86eb-34c83894d831}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{37d08d2d-8e07-462f-96a7-2965f4bee102}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{656d8b1e-5ddd-48c3-901d-6c3abfe63017}">
 		<relationship name="masterBus">
@@ -116,6 +119,7 @@
 		<relationship name="effects">
 			<destination>{b15d14f2-6223-4bf1-ac4a-040bd2dc9418}</destination>
 			<destination>{83681837-56f8-4729-a174-c0fd6494a31a}</destination>
+			<destination>{8b94bdbf-87e0-45fd-9d23-9bd6c0b43e8e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{abfbfb2b-8af2-4e21-8ad5-9f4c725e5e47}" />
@@ -140,6 +144,17 @@
 	<object class="MixerBusPanner" id="{7167859e-dca6-45ec-a479-a66b128ddab8}" />
 	<object class="MixerBusFader" id="{b15d14f2-6223-4bf1-ac4a-040bd2dc9418}" />
 	<object class="SpatialiserEffect" id="{83681837-56f8-4729-a174-c0fd6494a31a}" />
+	<object class="MixerSend" id="{8b94bdbf-87e0-45fd-9d23-9bd6c0b43e8e}">
+		<property name="level">
+			<value>-21</value>
+		</property>
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{919041b2-8a18-48ad-977a-022645c270f8}</destination>
+		</relationship>
+	</object>
 	<object class="RandomizerModulator" id="{a2059a37-1ea1-4e9d-98c7-af5f9eee9d01}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
