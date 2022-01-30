@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     {
         EntityManager entityManager = ServiceLocator.GetEntityManager();
 
-        _entity = entityManager.Create(GetInstanceID());
+        _entity = entityManager.Create(transform.GetInstanceID());
         entityManager.CreateReference(_entity, EntityReference.LocalplayerBody);
 
         _entity.OnTakeDamage += Entity_OnTakeDamage;
