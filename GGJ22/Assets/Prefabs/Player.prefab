@@ -74,7 +74,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteAnimator: {fileID: 1708050474799174557}
-  _audioPath_Landing: 
+  _audioPath_Landing: event:/Character/Land
   _jumpPower: 16
   _groundSpeed: 7
   _aerialHorizontalAcceleration: 1.2
@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 1708050474799174546}
   - component: {fileID: 1708050474799174547}
   - component: {fileID: 1708050474799174556}
-  - component: {fileID: 1708050474799174545}
+  - component: {fileID: 6145741241213040935}
   m_Layer: 6
   m_Name: BodyAnimator
   m_TagString: Untagged
@@ -475,7 +475,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1708050474799174545
+--- !u!114 &6145741241213040935
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -484,27 +484,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1708050474799174557}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: 4cca639d17c2d2d4e981d606adf36145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 489783453
-      Data2: 1302773406
-      Data3: 511857317
-      Data4: 787631361
-    Path: event:/Character/Footsteps_01
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &8518433494294268410
 GameObject:
   m_ObjectHideFlags: 0

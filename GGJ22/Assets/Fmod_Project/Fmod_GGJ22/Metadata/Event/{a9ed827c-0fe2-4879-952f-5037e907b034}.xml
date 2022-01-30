@@ -123,7 +123,7 @@
 	<object class="MixerBusPanner" id="{4dadef53-f6e4-4954-9386-c952bf0fba2a}" />
 	<object class="SingleSound" id="{470e7277-8b25-4258-9d35-3bc532a9d609}">
 		<property name="volume">
-			<value>-7.5</value>
+			<value>-8</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
