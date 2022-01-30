@@ -24,25 +24,28 @@
 	<object class="MixerBusFader" id="{107f6527-d12d-491a-9d74-a6de174e0aec}" />
 	<object class="SFXReverbEffect" id="{87df1fd0-0c87-4519-9cea-343c38ecf1be}">
 		<property name="decayTime">
-			<value>3400</value>
+			<value>4200</value>
 		</property>
 		<property name="lateDelay">
-			<value>28</value>
+			<value>29.5</value>
 		</property>
 		<property name="HFDecayRatio">
 			<value>53</value>
 		</property>
 		<property name="diffusion">
-			<value>93</value>
+			<value>88</value>
 		</property>
 		<property name="density">
-			<value>91</value>
+			<value>84.5</value>
 		</property>
 		<property name="lowShelfFrequency">
 			<value>310</value>
 		</property>
 		<property name="highCut">
 			<value>1550</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>66</value>
 		</property>
 		<property name="wetLevel">
 			<value>0</value>
