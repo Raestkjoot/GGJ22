@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
-    private enum animState
+    private enum AnimState
     {
         Idle,
         Run,
@@ -71,13 +71,13 @@ public class PlayerController : MonoBehaviour
             _velocity.y = Mathf.Max(_velocity.y, 0.0f); // No y velocity going into the ground
 
             if (_inputDirection != 0)
-                _animator.SetInteger("AnimState", (int)animState.Run);
+                _animator.SetInteger("AnimState", (int)AnimState.Run);
             else
-                _animator.SetInteger("AnimState", (int)animState.Idle);
+                _animator.SetInteger("AnimState", (int)AnimState.Idle);
         }
         else
         {
-            _animator.SetInteger("AnimState", (int)animState.AerialUp);
+            _animator.SetInteger("AnimState", (int)AnimState.AerialUp);
 
             // If player walked off an edge, give them some extra time to jump
             if (!_jumpedLastFrame && isGroundedLastFrame)
@@ -95,9 +95,9 @@ public class PlayerController : MonoBehaviour
             _velocity.y = Mathf.Max(_velocity.y - _gravity, -_maxFallVelocity);
 
             if (_velocity.y > 0)
-                _animator.SetInteger("AnimState", (int)animState.AerialUp);
+                _animator.SetInteger("AnimState", (int)AnimState.AerialUp);
             else
-                _animator.SetInteger("AnimState", (int)animState.AerialDown);
+                _animator.SetInteger("AnimState", (int)AnimState.AerialDown);
 
             _velocity.x += _inputDirection * _aerialHorizontalAcceleration;
             _velocity.x = Mathf.Clamp(_velocity.x, -_groundSpeed, _groundSpeed);
