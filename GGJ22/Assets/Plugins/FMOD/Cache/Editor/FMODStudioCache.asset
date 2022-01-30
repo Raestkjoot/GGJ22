@@ -124,7 +124,11 @@ MonoBehaviour:
   Name: Master.strings
   StudioPath: bank:/Master.strings
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   lastModified: 637791526600000000
+=======
+  lastModified: 637791509160804704
+>>>>>>> Stashed changes
 =======
   lastModified: 637791509160804704
 >>>>>>> Stashed changes
@@ -306,7 +310,11 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -4268246548640605055}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   cacheTime: 637791526600000000
+=======
+  cacheTime: 637791509160804704
+>>>>>>> Stashed changes
 =======
   cacheTime: 637791509160804704
 >>>>>>> Stashed changes
@@ -381,7 +389,11 @@ MonoBehaviour:
   Name: Master
   StudioPath: bank:/Master
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   lastModified: 637791526600000000
+=======
+  lastModified: 637791509160795022
+>>>>>>> Stashed changes
 =======
   lastModified: 637791509160795022
 >>>>>>> Stashed changes
