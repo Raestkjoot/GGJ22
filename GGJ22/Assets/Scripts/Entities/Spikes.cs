@@ -91,10 +91,8 @@ public class Spikes : MonoBehaviour
             return;
 
         _entity.DealDamage(otherEntity, 50.0f);
-        Debug.Log("Dealt Damage to something");
         foreach(Collider2D c in GetComponents<Collider2D> ()) 
         {
-            Debug.Log("Collider removed");
             c.enabled = false;
         }
     }
