@@ -38,28 +38,28 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.D))
         {
-            _entity.DealDamage(_entity, 10);
+            _entity.DealDamage(_entity, 33.33f);
         }
 
         if (Input.GetKeyDown(KeyCode.S))
         {
-            ToggleSpiritSlider();
+            ToggleSpiritState();
         }
 
-        if (_spiritSliderEnabled)
+        if (IsInSpiritForm())
         {
             _spiritSliderTimer = Mathf.Min(_spiritSliderTimer + Time.deltaTime, _spiritSliderMaxTime);
             if (_spiritSliderTimer == _spiritSliderMaxTime)
             {
                 // TODO : Implement what happens when you run out of spirit energy
-                ToggleSpiritSlider();
+                ToggleSpiritState();
             }
         }
     }
 
     private void OnGUI()
     {
-        UpdateSpiritSliderState(_spiritSliderEnabled, _spiritSliderTimer, GetSliderProgress());
+        UpdateSpiritSliderState(IsInSpiritForm(), _spiritSliderTimer, GetSliderProgress());
     }
 
     private void Entity_OnTakeDamage(Entity me, Entity attacker, float damage)
@@ -89,10 +89,19 @@ public class Player : MonoBehaviour
         return (int)((health + 32.33f) / 33.33f);
     }
 
-    private void ToggleSpiritSlider()
+    private void ToggleSpiritState()
     {
-        _spiritSliderEnabled = !_spiritSliderEnabled;
-        UpdateSpiritSliderState(_spiritSliderEnabled, 0.0f, 0.0f);
+        _isInSpiritForm = !_isInSpiritForm;
+        UpdateSpiritSliderState(_isInSpiritForm, 0.0f, 0.0f);
+
+        if (IsInSpiritForm())
+        {
+            // TODO : Implement Changing to body
+        }
+        else
+        {
+            // TODO : Implement Changing to spirit
+        }
     }
     private void UpdateSpiritSliderState(bool state, float timer, float progress)
     {
@@ -106,14 +115,15 @@ public class Player : MonoBehaviour
     {
         return _spiritSliderTimer / _spiritSliderMaxTime;
     }
+    private bool IsInSpiritForm() { return _isInSpiritForm; }
 
     private const int _maxHeartSprites = 4;
     [SerializeField] private Sprite[] _heartSprites;
     [SerializeField] private Image _heartImage;
 
+    [SerializeField] private bool _isInSpiritForm = false;
     [SerializeField] private GameObject _spiritSlider;
     [SerializeField] private RectTransform _spiritSliderRect;
-    [SerializeField] private bool _spiritSliderEnabled = false;
     [SerializeField] private float _spiritSliderMaxTime = 8.0f;
     [SerializeField] private float _spiritSliderTimer = 0.0f;
 
