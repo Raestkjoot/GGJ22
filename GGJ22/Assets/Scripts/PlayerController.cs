@@ -67,6 +67,12 @@ public class PlayerController : MonoBehaviour
 
         if (_isGrounded)
         {
+            if (!isGroundedLastFrame)
+            {
+                FMODUnity.RuntimeManager.PlayOneShot(_audioPath_Landing, GetComponent<Transform>().position);
+                // set position to ground level?
+            }
+
             _velocity.x = _inputDirection * _groundSpeed;
             _velocity.y = Mathf.Max(_velocity.y, 0.0f); // No y velocity going into the ground
 
@@ -141,6 +147,7 @@ public class PlayerController : MonoBehaviour
     private float _currGracePeriod;
 
     [SerializeField] private GameObject spriteAnimator;
+    [SerializeField] private string _audioPath_Landing;
     [SerializeField] private float _jumpPower = 1.0f;
     [SerializeField] private float _groundSpeed = 1.0f;
     [SerializeField] private float _aerialHorizontalAcceleration = 0.02f;
