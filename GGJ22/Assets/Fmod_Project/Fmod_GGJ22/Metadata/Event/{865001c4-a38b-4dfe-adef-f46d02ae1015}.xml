@@ -124,6 +124,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{24bfd38f-d361-42d8-a7a4-b65fc221decd}" />
 	<object class="SingleSound" id="{ffab6213-e000-441a-a2f3-f58284f68d00}">
+		<property name="volume">
+			<value>-4.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{abc4e1fa-f12d-4763-8a99-274139986b39}</destination>
 		</relationship>
@@ -136,10 +139,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{a8443598-20a7-4229-85bf-d25f680ba581}" />
 	<object class="MixerBusFader" id="{8254ea85-aa8b-4cb5-b43c-43de17c02ad6}" />
-	<object class="SpatialiserEffect" id="{f41ac0f1-978f-4941-9086-1d83d20aa53b}" />
+	<object class="SpatialiserEffect" id="{f41ac0f1-978f-4941-9086-1d83d20aa53b}">
+		<property name="minimumDistance">
+			<value>2.4000001</value>
+		</property>
+	</object>
 	<object class="MixerSend" id="{d11c95d1-6066-4d26-bf69-23c6019d3171}">
 		<property name="level">
-			<value>-26</value>
+			<value>-28.5</value>
 		</property>
 		<property name="inputFormat">
 			<value>2</value>
