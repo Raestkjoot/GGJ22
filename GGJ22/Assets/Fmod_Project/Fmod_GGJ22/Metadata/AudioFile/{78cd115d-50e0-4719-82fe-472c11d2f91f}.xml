@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{78cd115d-50e0-4719-82fe-472c11d2f91f}">
+		<property name="assetPath">
+			<value>Sfx/GGJ22_Ghost_Spawn.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.409092970521542</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f309c912-06b4-4a7e-a2df-b81e6750c2ec}</destination>
+		</relationship>
+	</object>
+</objects>

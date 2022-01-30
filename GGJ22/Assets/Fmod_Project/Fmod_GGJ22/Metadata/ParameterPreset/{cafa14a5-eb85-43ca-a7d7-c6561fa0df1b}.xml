@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{cafa14a5-eb85-43ca-a7d7-c6561fa0df1b}">
+		<property name="name">
+			<value>SpiritMeter</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3e5222cb-1f9c-4a94-9e92-be1552c582bb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b224e4fb-5733-42fe-bd6f-10c19af876da}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b224e4fb-5733-42fe-bd6f-10c19af876da}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
