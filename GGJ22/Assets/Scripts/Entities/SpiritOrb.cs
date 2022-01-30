@@ -46,6 +46,9 @@ public class SpiritOrb : MonoBehaviour
         EntityManager entityManager = ServiceLocator.GetEntityManager();
         Entity playerEntity = entityManager.GetByReference(EntityReference.LocalplayerBody);
 
+        Animator animator = GetComponent<Animator>();
+        animator.Play("SpiritOrbConsumed");
+
         SpiritOrbEvent spiritOrbEvent = new SpiritOrbEvent
         {
             secondsGained = _spiritEnergiSecondGained
@@ -79,7 +82,7 @@ public class SpiritOrb : MonoBehaviour
     }
 
     [SerializeField] private bool _consumed = false;
-    [SerializeField] private float _fadeOutMaxTime = 0.75f;
+    [SerializeField] private float _fadeOutMaxTime = 0.85f;
     [SerializeField] private float _fadeOutTimer = 0f;
     [SerializeField] private float _spiritEnergiSecondGained = 2.5f;
 
