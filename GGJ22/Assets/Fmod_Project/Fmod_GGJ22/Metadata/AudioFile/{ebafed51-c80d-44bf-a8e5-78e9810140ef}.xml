@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{ebafed51-c80d-44bf-a8e5-78e9810140ef}">
 		<property name="assetPath">
-			<value>Musical, Loop, Cinematic Underscore, Underworld, Metallic Barrels, Dark (90 BPM) SND63214.wav</value>
+			<value>Music/Musical, Loop, Cinematic Underscore, Underworld, Metallic Barrels, Dark (90 BPM) SND63214.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
