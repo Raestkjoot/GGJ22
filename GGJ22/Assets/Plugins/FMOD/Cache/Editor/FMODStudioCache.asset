@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 31000
+--- !u!114 &-7182635683062698515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/SpiritAtmos
+  m_EditorClassIdentifier: 
+  Path: event:/Music/SpiritAtmos
+  Guid:
+    Data1: -1149661479
+    Data2: 1084627704
+    Data3: 1593748098
+    Data4: 211662564
+  Banks:
+  - {fileID: 1307494185810154158}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-5351950174659002790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,10 +123,10 @@ MonoBehaviour:
   Path: Assets/Fmod_Project/Fmod_GGJ22/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637791485020000000
+  lastModified: 637791496710000000
   FileSizes:
   - Name: Desktop
-    Value: 1786
+    Value: 1888
   Exists: 1
 --- !u!114 &-2164726622082335099
 MonoBehaviour:
@@ -123,7 +150,7 @@ MonoBehaviour:
   - {fileID: 1307494185810154158}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters:
   - {fileID: -528610261321135702}
   MinDistance: 0
@@ -180,6 +207,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-317738362537674003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Spike Impale
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Spike Impale
+  Guid:
+    Data1: -2041577020
+    Data2: 1308533643
+    Data3: 1844768685
+    Data4: 353414658
+  Banks:
+  - {fileID: 1307494185810154158}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-55552972832085791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,12 +292,16 @@ MonoBehaviour:
   - {fileID: -2164726622082335099}
   - {fileID: 3095034442020829960}
   - {fileID: -1031820074238745347}
+  - {fileID: 2278658842324209570}
+  - {fileID: -317738362537674003}
+  - {fileID: -7182635683062698515}
+  - {fileID: 8730647976271295526}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1307494185810154158}
   StringsBanks:
   - {fileID: -4268246548640605055}
-  cacheTime: 637791485020000000
+  cacheTime: 637791496710000000
   cacheVersion: 10
 --- !u!114 &607568223940856491
 MonoBehaviour:
@@ -314,11 +372,38 @@ MonoBehaviour:
   Path: Assets/Fmod_Project/Fmod_GGJ22/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637791485020000000
+  lastModified: 637791496710000000
   FileSizes:
   - Name: Desktop
-    Value: 1880928
+    Value: 2127680
   Exists: 1
+--- !u!114 &2278658842324209570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/PressurePlate
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/PressurePlate
+  Guid:
+    Data1: 84967993
+    Data2: 1144170779
+    Data3: -373628007
+    Data4: 1174421358
+  Banks:
+  - {fileID: 1307494185810154158}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &3095034442020829960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -480,6 +565,33 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+  Length: 0
+--- !u!114 &8730647976271295526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/PickUp
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/PickUp
+  Guid:
+    Data1: 324841781
+    Data2: 1234794235
+    Data3: -1144798580
+    Data4: -2113000194
+  Banks:
+  - {fileID: 1307494185810154158}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
   Length: 0
 --- !u!114 &9136415728248428187
 MonoBehaviour:
