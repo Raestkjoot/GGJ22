@@ -38,8 +38,11 @@ public class PlayerController : MonoBehaviour
             spriteAnimator.transform.localScale = _spriteAnimatorObjectScaleRight;
         }
 
+        // get buttonUP jump
+
         _jump |= Input.GetButtonDown("Jump");
         _jump &= _canJump;
+        _hasReleasedJumpButton |= Input.GetButtonUp("Jump");
 
         _currGracePeriod = Mathf.Max(_currGracePeriod - Time.deltaTime, 0.0f);
     }
@@ -59,6 +62,7 @@ public class PlayerController : MonoBehaviour
             _jump = false;
             _currGracePeriod = 0.0f;
             _velocity.y = _jumpPower;
+            _hasReleasedJumpButton = false;
         }
 
         if (_isGrounded)
@@ -81,8 +85,14 @@ public class PlayerController : MonoBehaviour
                 _currGracePeriod = _jumpGracePeriod;
             }
 
+
+            if (!_hasReleasedJumpButton)
+            {
+                _velocity.y += _aerialExtraJumpPower;
+            }
+
             // Apply gravity
-            _velocity.y = Mathf.Max(_velocity.y - _gravity * Time.fixedDeltaTime, -_maxFallVelocity);
+            _velocity.y = Mathf.Max(_velocity.y - _gravity, -_maxFallVelocity);
 
             if (_velocity.y > 0)
                 _animator.SetInteger("AnimState", (int)animState.AerialUp);
@@ -126,6 +136,7 @@ public class PlayerController : MonoBehaviour
     private bool _jump;
     private bool _canJump;
     private bool _jumpedLastFrame;
+    private bool _hasReleasedJumpButton;
     private bool _isGrounded;
     private float _currGracePeriod;
 
@@ -133,6 +144,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _jumpPower = 1.0f;
     [SerializeField] private float _groundSpeed = 1.0f;
     [SerializeField] private float _aerialHorizontalAcceleration = 0.02f;
+    [SerializeField] private float _aerialExtraJumpPower = 0.02f;
     //[SerializeField] private float _aerialHorizontalMaxVelocity = 6.0f; // Add this to the clamp check in FixedUpdate->!isGrounded
     [SerializeField] private float _gravity = 0.6f;
     [SerializeField] private float _maxFallVelocity = 20.0f;
