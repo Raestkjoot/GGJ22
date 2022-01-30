@@ -6,25 +6,37 @@ public class PlayerController : MonoBehaviour
     private enum animState
     {
         Idle,
-        RunLeft,
-        RunRight,
-        Jump,
+        Run,
+        AerialUp,
+        AerialDown,
         Die
     }
 
     private void Start()
     {
         _rigidbody = gameObject.GetComponent<Rigidbody2D>();
+        _animator = spriteAnimator.GetComponent<Animator>();
 
-        if (_animator)
-            _animator.SetInteger("AnimState", (int)animState.Idle);
-        else
+        _spriteAnimatorObjectScaleLeft = spriteAnimator.transform.localScale;
+        _spriteAnimatorObjectScaleRight = _spriteAnimatorObjectScaleLeft;
+        _spriteAnimatorObjectScaleRight.x *= -1;
+
+        if (!_animator)
             Debug.LogWarning("Player is missing its animator!");
     }
 
     private void Update()
     {
         _inputDirection = Input.GetAxisRaw("Horizontal");
+
+        if (_inputDirection < 0)
+        {
+            spriteAnimator.transform.localScale = _spriteAnimatorObjectScaleLeft;
+        }
+        else if (_inputDirection > 0)
+        {
+            spriteAnimator.transform.localScale = _spriteAnimatorObjectScaleRight;
+        }
 
         _jump |= Input.GetButtonDown("Jump");
         _jump &= _canJump;
@@ -54,16 +66,14 @@ public class PlayerController : MonoBehaviour
             _velocity.x = _inputDirection * _groundSpeed;
             _velocity.y = Mathf.Max(_velocity.y, 0.0f); // No y velocity going into the ground
 
-            if (_inputDirection > 0)
-                _animator.SetInteger("AnimState", (int)animState.RunRight);
-            else if (_inputDirection < 0)
-                _animator.SetInteger("AnimState", (int)animState.RunLeft);
-            else // _inputDirection == 0
+            if (_inputDirection != 0)
+                _animator.SetInteger("AnimState", (int)animState.Run);
+            else
                 _animator.SetInteger("AnimState", (int)animState.Idle);
         }
         else
         {
-            _animator.SetInteger("AnimState", (int)animState.Jump);
+            _animator.SetInteger("AnimState", (int)animState.AerialUp);
 
             // If player walked off an edge, give them some extra time to jump
             if (!_jumpedLastFrame && isGroundedLastFrame)
@@ -73,7 +83,12 @@ public class PlayerController : MonoBehaviour
 
             // Apply gravity
             _velocity.y = Mathf.Max(_velocity.y - _gravity * Time.fixedDeltaTime, -_maxFallVelocity);
-            
+
+            if (_velocity.y > 0)
+                _animator.SetInteger("AnimState", (int)animState.AerialUp);
+            else
+                _animator.SetInteger("AnimState", (int)animState.AerialDown);
+
             _velocity.x += _inputDirection * _aerialHorizontalAcceleration;
             _velocity.x = Mathf.Clamp(_velocity.x, -_groundSpeed, _groundSpeed);
         }
@@ -100,9 +115,13 @@ public class PlayerController : MonoBehaviour
     }
 
     private Rigidbody2D _rigidbody;
+    private Animator _animator;
 
     private float _inputDirection;
     private Vector2 _velocity;
+
+    private Vector3 _spriteAnimatorObjectScaleLeft;
+    private Vector3 _spriteAnimatorObjectScaleRight;
 
     private bool _jump;
     private bool _canJump;
@@ -110,7 +129,7 @@ public class PlayerController : MonoBehaviour
     private bool _isGrounded;
     private float _currGracePeriod;
 
-    [SerializeField] private Animator _animator;
+    [SerializeField] private GameObject spriteAnimator;
     [SerializeField] private float _jumpPower = 1.0f;
     [SerializeField] private float _groundSpeed = 1.0f;
     [SerializeField] private float _aerialHorizontalAcceleration = 0.02f;
