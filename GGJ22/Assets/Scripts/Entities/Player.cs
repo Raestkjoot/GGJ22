@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
 
         _entity.OnTakeDamage += Entity_OnTakeDamage;
         _entity.OnDied += Entity_OnDied;
+        _entity.OnInteract += Entity_OnInteract;
         _entity.OnDestroyed += Entity_OnDestroyed;
 
         if (_heartImage == null)
@@ -33,14 +34,12 @@ public class Player : MonoBehaviour
         {
             Debug.LogError("Player is missing Spirit Slider (A reference to the Rect Transform attached to SpiritMeterFill)");
         }
+
+        UpdateSpiritSliderState(false, 0.0f, 0.0f);
     }
+
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            _entity.DealDamage(_entity, 33.33f);
-        }
-
         if (Input.GetKeyDown(KeyCode.S))
         {
             ToggleSpiritState();
@@ -75,6 +74,15 @@ public class Player : MonoBehaviour
         int numHearts = 0;
         _heartImage.sprite = _heartSprites[numHearts];
     }
+    private void Entity_OnInteract(Entity me, Entity other, object arg)
+    {
+        if (arg is SpiritOrbEvent)
+        {
+            SpiritOrbEvent spiritOrbEvent = (SpiritOrbEvent)arg;
+            _spiritSliderTimer = Mathf.Max(_spiritSliderTimer - spiritOrbEvent.secondsGained, 0.0f);
+            UpdateSpiritSliderState(IsInSpiritForm(), _spiritSliderTimer, GetSliderProgress());
+        }
+    }
     private void Entity_OnDestroyed()
     {
         // Cleanup
@@ -96,12 +104,24 @@ public class Player : MonoBehaviour
 
         if (IsInSpiritForm())
         {
-            // TODO : Implement Changing to body
+            LeaveSpiritForm();
         }
         else
         {
-            // TODO : Implement Changing to spirit
+            EnterSpiritForm();
         }
+    }
+
+    private void EnterSpiritForm()
+    {
+        // TODO : Implement Changing to spirit
+        {
+
+        }
+    }
+    private void LeaveSpiritForm()
+    {
+        // TODO : Implement Changing to body
     }
     private void UpdateSpiritSliderState(bool state, float timer, float progress)
     {
