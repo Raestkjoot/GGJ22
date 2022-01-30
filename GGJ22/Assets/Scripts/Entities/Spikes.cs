@@ -94,7 +94,6 @@ public class Spikes : MonoBehaviour
             return;
 
         _entity.DealDamage(otherEntity, 33.33f);
-        Debug.Log("Spike dealt dmg");
     }
     private void Entity_OnInteract(Entity me, Entity other, object arg)
     {
