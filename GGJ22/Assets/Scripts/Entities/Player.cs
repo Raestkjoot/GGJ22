@@ -63,6 +63,9 @@ public class Player : MonoBehaviour
 
     private void Entity_OnTakeDamage(Entity me, Entity attacker, float damage)
     {
+        if (IsInSpiritForm())
+            return;
+
         // Reduce health by damage, but never below 0
         me.currentHealth = Mathf.Max(me.currentHealth - damage, 0);
 
@@ -73,6 +76,8 @@ public class Player : MonoBehaviour
     {
         int numHearts = 0;
         _heartImage.sprite = _heartSprites[numHearts];
+
+        ServiceLocator.GetGameHandler().ResetMap();
     }
     private void Entity_OnInteract(Entity me, Entity other, object arg)
     {
@@ -124,6 +129,8 @@ public class Player : MonoBehaviour
         _bodyPlayerController.enabled = false;
         _ghostPlayerController.enabled = true;
 
+        ServiceLocator.GetGameHandler().EnterSpiritRealm();
+
     }
     private void LeaveSpiritForm()
     {
@@ -137,6 +144,8 @@ public class Player : MonoBehaviour
 
         _bodyPlayerController.enabled = true;
         _ghostPlayerController.enabled = false;
+
+        ServiceLocator.GetGameHandler().LeaveSpiritRealm();
     }
     private void UpdateSpiritSliderState(bool state, float timer, float progress)
     {
@@ -161,7 +170,7 @@ public class Player : MonoBehaviour
     [SerializeField] private bool _isInSpiritForm = false;
     [SerializeField] private GameObject _spiritSlider;
     [SerializeField] private RectTransform _spiritSliderRect;
-    [SerializeField] private float _spiritSliderMaxTime = 8.0f;
+    [SerializeField] private float _spiritSliderMaxTime = 5.0f;
     [SerializeField] private float _spiritSliderTimer = 0.0f;
 
     [SerializeField] private GameObject _bodyAnimatorObject;

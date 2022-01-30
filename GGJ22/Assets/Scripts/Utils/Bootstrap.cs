@@ -24,14 +24,6 @@ public class Bootstrap : MonoBehaviour
         {
             gameHandler.ResetMap();
         }
-        else if (Input.GetKeyDown(KeyCode.N))
-        {
-            gameHandler.LoadNextMap();
-        }
-        else if (Input.GetKeyDown(KeyCode.P))
-        {
-            gameHandler.LoadPrevMap();
-        }
     }
 
 #pragma warning disable CS0067

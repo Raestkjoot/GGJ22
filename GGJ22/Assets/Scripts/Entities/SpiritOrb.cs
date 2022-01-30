@@ -88,7 +88,7 @@ public class SpiritOrb : MonoBehaviour
     [SerializeField] private bool _consumed = false;
     [SerializeField] private float _fadeOutMaxTime = 0.85f;
     [SerializeField] private float _fadeOutTimer = 0f;
-    [SerializeField] private float _spiritEnergiSecondGained = 2.5f;
+    [SerializeField] private float _spiritEnergiSecondGained = 1.0f;
 
     private SpriteRenderer _spriteRenderer;
     private Entity _entity = null;
