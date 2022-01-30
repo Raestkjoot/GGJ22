@@ -125,7 +125,7 @@
 	<object class="MixerBusPanner" id="{abfbfb2b-8af2-4e21-8ad5-9f4c725e5e47}" />
 	<object class="MultiSound" id="{aaeba0d9-f5cf-4b60-bf52-66ac3c682ec3}">
 		<property name="volume">
-			<value>-6.5</value>
+			<value>-5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{a2059a37-1ea1-4e9d-98c7-af5f9eee9d01}</destination>
@@ -143,7 +143,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{7167859e-dca6-45ec-a479-a66b128ddab8}" />
 	<object class="MixerBusFader" id="{b15d14f2-6223-4bf1-ac4a-040bd2dc9418}" />
-	<object class="SpatialiserEffect" id="{83681837-56f8-4729-a174-c0fd6494a31a}" />
+	<object class="SpatialiserEffect" id="{83681837-56f8-4729-a174-c0fd6494a31a}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerSend" id="{8b94bdbf-87e0-45fd-9d23-9bd6c0b43e8e}">
 		<property name="level">
 			<value>-21</value>

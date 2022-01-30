@@ -80,7 +80,7 @@ AnimationClip:
   m_Events:
   - time: 0.033333335
     functionName: PlaySound
-    data: event:/Sfx/Spike Impale
+    data: event:/Sfx/Spike
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

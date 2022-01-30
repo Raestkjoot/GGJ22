@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.49641287, b: 0.5748173, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -979,6 +979,10 @@ PrefabInstance:
       value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 1708050473230503514, guid: 8b8b8b1644663664eb05c26d35e9d63a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1708050473230503514, guid: 8b8b8b1644663664eb05c26d35e9d63a, type: 3}
       propertyPath: _jumpPower
       value: 14
       objectReference: {fileID: 0}
@@ -1008,11 +1012,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1708050474799174556, guid: 8b8b8b1644663664eb05c26d35e9d63a, type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7893248612542193428, guid: 8b8b8b1644663664eb05c26d35e9d63a, type: 3}
       propertyPath: _gravity
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893248612542193428, guid: 8b8b8b1644663664eb05c26d35e9d63a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7893248612542193428, guid: 8b8b8b1644663664eb05c26d35e9d63a, type: 3}
       propertyPath: _jumpPower
@@ -1037,6 +1045,10 @@ PrefabInstance:
     - target: {fileID: 7893248612542193428, guid: 8b8b8b1644663664eb05c26d35e9d63a, type: 3}
       propertyPath: _aerialHorizontalAcceleration
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8685971650677400570, guid: 8b8b8b1644663664eb05c26d35e9d63a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b8b8b1644663664eb05c26d35e9d63a, type: 3}
@@ -1619,7 +1631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 967937201}
+  attenuationObject: {fileID: 1708050473230503845, guid: 8b8b8b1644663664eb05c26d35e9d63a, type: 3}
   ListenerNumber: -1
 --- !u!20 &963194227
 Camera:

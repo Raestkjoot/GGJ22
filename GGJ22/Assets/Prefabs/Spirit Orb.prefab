@@ -116,6 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3edf627e33ce22c40bacda3750df020d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioPath_SpiritOrbConsume: event:/Sfx/PickUp
   _consumed: 0
   _fadeOutMaxTime: 0.85
   _fadeOutTimer: 0

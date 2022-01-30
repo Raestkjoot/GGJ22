@@ -62,7 +62,14 @@
 			<destination>{ee58f3e5-3eb5-4f77-99e2-edfeaee8e1e6}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{cf3a3cf7-0640-480c-8376-09bd3ffaadf3}" />
+	<object class="EventAutomatableProperties" id="{cf3a3cf7-0640-480c-8376-09bd3ffaadf3}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="triggerCooldown">
+			<value>2200</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{2beefd6a-8ea7-4095-a4c3-9ce8085ec238}" />
 	<object class="GroupTrack" id="{1ca9f578-e88e-4b0c-ad5e-d3044c260f7b}">
 		<relationship name="mixerGroup">
@@ -125,7 +132,7 @@
 	<object class="MixerBusPanner" id="{c056e0c8-75f4-480e-b67d-afac03e52a90}" />
 	<object class="SingleSound" id="{96f7ec53-a791-4089-ae56-68d78bfd7bf3}">
 		<property name="volume">
-			<value>-11</value>
+			<value>-18</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{cf316535-72aa-4670-8244-fbc48c0d2bfd}</destination>
@@ -139,10 +146,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{e4bfe33d-21cd-480c-94c7-48f8aaffb252}" />
 	<object class="MixerBusFader" id="{8f981d96-b15d-4b2e-83ea-3f64454a2863}" />
-	<object class="SpatialiserEffect" id="{1a124ee7-348d-4164-b396-0af7049d11e2}" />
+	<object class="SpatialiserEffect" id="{1a124ee7-348d-4164-b396-0af7049d11e2}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="minimumDistance">
+			<value>3.60000014</value>
+		</property>
+	</object>
 	<object class="MixerSend" id="{e4efaa83-6880-4b50-914d-d329f15ababc}">
 		<property name="level">
-			<value>-35</value>
+			<value>-30</value>
 		</property>
 		<property name="inputFormat">
 			<value>2</value>

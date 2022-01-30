@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{865001c4-a38b-4dfe-adef-f46d02ae1015}">
 		<property name="name">
-			<value>Spike Impale</value>
+			<value>Spike</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -64,7 +64,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{178f7918-b8d5-4941-9eb3-e4e3ca8918d4}">
 		<property name="maxVoices">
-			<value>64</value>
+			<value>14</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{467a976e-76e4-49e2-81f2-fbc9cbc5de02}" />

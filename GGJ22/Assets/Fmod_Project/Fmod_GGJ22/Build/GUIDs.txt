@@ -1,0 +1,29 @@
+{37d08d2d-8e07-462f-96a7-2965f4bee102} bank:/Master
+{afcdadf9-ff7c-0a6d-10ee-a39b054de79a} bank:/Master.strings
+{ee58f3e5-3eb5-4f77-99e2-edfeaee8e1e6} bus:/
+{90c693e0-68ff-4442-8bef-e71827f53aa9} bus:/Ambience mix
+{7390bd4b-51a3-4d31-9bbe-d57897bd0c54} bus:/MusicMix
+{919041b2-8a18-48ad-977a-022645c270f8} bus:/RealisticVerb
+{7a4d3b9a-4d1a-4503-9dc3-32729b5c9e6e} bus:/Sfx mix
+{4ba18467-cd74-428e-b686-7885e0c0a8fb} bus:/SoulVerb
+{a9ed827c-0fe2-4879-952f-5037e907b034} event:/Ambience/Ambience_Loop
+{1d31809d-be9e-4da6-a552-821e014df22e} event:/Character/Footsteps_01
+{8d80c335-51c9-41fe-9255-10f42b054218} event:/Character/Jump
+{b367bc14-4722-4818-aba6-9c2047d97140} event:/Character/Land
+{1203ecbf-a2a7-4a87-87e2-69aa426f5a74} event:/Music/Music_Loop
+{377224aa-14e1-4001-8269-bee482608a27} event:/Music/Music_SpiritCounter
+{bb798ed9-1af8-40a6-82aa-fe5ee4b69d0c} event:/Music/SpiritAtmos
+{a36b9825-f539-4347-ab93-5c59ab87d782} event:/Sfx/Body Revive
+{aba18633-862c-457f-9a32-f288b0a60337} event:/Sfx/Button_Press
+{c5ff77cc-b074-4fa0-af7e-c75e0eb36ca7} event:/Sfx/Door
+{3f23d4f2-bed0-42b5-bc8f-e95d76a2c454} event:/Sfx/GhostSpawn
+{1b308a2c-899d-4321-b728-70da59aaea69} event:/Sfx/Lost
+{135cb135-76fb-4999-8cc2-c3bbfe2c0e82} event:/Sfx/PickUp
+{05108239-a91b-4432-99e3-bae96e3f0046} event:/Sfx/PressurePlate
+{865001c4-a38b-4dfe-adef-f46d02ae1015} event:/Sfx/Spike
+{2f1fd2f8-7d7d-4b0e-a51d-e4b711207b36} event:/SnapShots/Body
+{f107dfcf-a093-4823-81ee-7f93be044e02} event:/SnapShots/Soul
+{b224e4fb-5733-42fe-bd6f-10c19af876da} parameter:/SpiritMeter
+{e6ac58c6-ca76-49c9-8bc8-c17105b3eb10} snapshot:/Body
+{f712d06c-8ee1-4dfc-8eba-b1c13653b275} snapshot:/Soul
+{d1526af7-1a55-44c8-9eff-f8073c360f98} vca:/Master

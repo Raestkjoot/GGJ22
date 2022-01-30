@@ -650,6 +650,10 @@ GameObject:
   - component: {fileID: 395069723809171728}
   - component: {fileID: 6855757444902430165}
   - component: {fileID: 8685971650677400570}
+  - component: {fileID: 1646970560846556987}
+  - component: {fileID: 6595496002254928031}
+  - component: {fileID: 2651027897128506694}
+  - component: {fileID: 4996941023835948630}
   m_Layer: 6
   m_Name: GhostAnimator
   m_TagString: Untagged
@@ -741,6 +745,126 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1646970560846556987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518433494294268410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1059312882
+      Data2: 1119207120
+      Data3: 1575587772
+      Data4: 1422172790
+    Path: event:/Sfx/GhostSpawn
+  Event: 
+  PlayEvent: 11
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &6595496002254928031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518433494294268410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -149761940
+      Data2: 1308397281
+      Data3: -1045316978
+      Data4: 1974620982
+    Path: snapshot:/Soul
+  Event: 
+  PlayEvent: 11
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &2651027897128506694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518433494294268410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -424912698
+      Data2: 1237961334
+      Data3: 1908525195
+      Data4: 283882245
+    Path: snapshot:/Body
+  Event: 
+  PlayEvent: 12
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &4996941023835948630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518433494294268410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1149661479
+      Data2: 1084627704
+      Data3: 1593748098
+      Data4: 211662564
+    Path: event:/Music/SpiritAtmos
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &818250995275676434
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -958,11 +1082,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37d8497e9b4f288449c120cda3fc8001, type: 3}
---- !u!224 &2268798940917254421 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5879587529991801507, guid: 37d8497e9b4f288449c120cda3fc8001, type: 3}
-  m_PrefabInstance: {fileID: 5684696292372874166}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2268798940917254422 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5879587529991801504, guid: 37d8497e9b4f288449c120cda3fc8001, type: 3}
@@ -974,3 +1093,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &2268798940917254421 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5879587529991801507, guid: 37d8497e9b4f288449c120cda3fc8001, type: 3}
+  m_PrefabInstance: {fileID: 5684696292372874166}
+  m_PrefabAsset: {fileID: 0}

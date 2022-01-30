@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 1708050473230503845, guid: 8b8b8b1644663664eb05c26d35e9d63a, type: 3}
+  attenuationObject: {fileID: 2041178776154191895}
   ListenerNumber: -1
 --- !u!114 &2041178776154191893
 MonoBehaviour:
