@@ -94,18 +94,8 @@ public class Spikes : MonoBehaviour
             return;
 
         _entity.DealDamage(otherEntity, 33.33f);
-        foreach(Collider2D c in GetComponentsInChildren<Collider2D>()) 
-        {
-            c.enabled = false;
-        }
+        Debug.Log("Spike dealt dmg");
     }
-    private void OnTriggerExit2D(Collider2D other) {
-        foreach(Collider2D c in GetComponentsInChildren<Collider2D>()) 
-        {
-            c.enabled = true;
-        }
-    }
-
     private void Entity_OnInteract(Entity me, Entity other, object arg)
     {
         // When being interacted with, we want the entity to enable/disable
@@ -159,8 +149,7 @@ public class Spikes : MonoBehaviour
     }
     private void Enable()
     {
-        foreach(Collider2D c in GetComponents<Collider2D> ()) 
-        {
+        foreach(Collider2D c in GetComponents<Collider2D> ()) {
             c.enabled = true;
         }
         _animator.SetBool("Up", true);
@@ -168,8 +157,7 @@ public class Spikes : MonoBehaviour
     }
     private void Disable() 
     {
-        foreach(Collider2D c in GetComponents<Collider2D> ()) 
-        {
+        foreach(Collider2D c in GetComponents<Collider2D> ()) {
             c.enabled = false;
         }
         _animator.SetBool("Up", false);
