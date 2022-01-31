@@ -129,7 +129,7 @@
 	<object class="MixerBusPanner" id="{be97c67d-0cd2-4b1f-982b-d823d427c3e0}" />
 	<object class="MultiSound" id="{f1544732-eb9e-44f0-9f7e-a26652b9b7e5}">
 		<property name="volume">
-			<value>-13.5</value>
+			<value>-12</value>
 		</property>
 		<property name="pitch">
 			<value>0.5</value>
@@ -159,7 +159,7 @@
 	</object>
 	<object class="MixerSend" id="{949c22d4-d386-4ff3-8892-320843f9c4fb}">
 		<property name="level">
-			<value>-20.5</value>
+			<value>-19</value>
 		</property>
 		<property name="inputFormat">
 			<value>2</value>
